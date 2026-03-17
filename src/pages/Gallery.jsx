@@ -20,7 +20,12 @@ const imageFiles = [
   "hero3.jpg",
   "hero4.jpg",
   "hero5.jpg",
-  "hero6.jpg"
+  "hero6.jpg",
+  "hero7.jpg",
+  "hero8.jpg",
+  "hero9.jpg",
+  "hero10.jpg",
+  "hero11.jpg"
 ];
 
 function Gallery() {
