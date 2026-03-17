@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import { Link } from "react-router-dom"; // <-- import Link
 import Navbar from "../components/Navbar";
+import SpeedDial from "../components/SpeedDial";
 import Footer from "../components/Footer";
 const heroVideos = ["herov1.mp4", "herov2.mp4", "herov3.mp4"];
 const projectImages = ["before.jpg", "demolition.jpg", "after.jpg"];
@@ -130,6 +131,7 @@ function Home() {
           ))}
         </div>
       </section>
+      <SpeedDial />
 
       <Footer />
 
