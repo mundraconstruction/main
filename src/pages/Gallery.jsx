@@ -7,9 +7,9 @@ import Footer from "../components/Footer";
 const videoFiles = [
   "herov1.mp4",
   "herov2.mp4",
-  "herov3.mp4"
-  "herov4.mp4"
-  "herov5.mp4"
+  "herov3.mp4",
+  "herov4.mp4",
+  "herov5.mp4",
   "herov6.mp4"
   
 ];
