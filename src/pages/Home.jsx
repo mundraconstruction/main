@@ -73,7 +73,7 @@ function Home() {
             Building The Future With Strength
           </h1>
           <p className="mt-5 text-sm md:text-lg text-gray-300 max-w-xl mx-auto">
-            Experts in Structural Renovation, Home Remodeling & Commercial Construction Across Canada.
+            Experts in Structural Renovation, Home Remodeling & Commercial Construction Across UK.
           </p>
           <button className="request-btn mt-8 bg-yellow-500 hover:bg-yellow-400 text-black px-6 py-3 rounded-2xl font-bold shadow-2xl transform hover:scale-105 transition duration-300">
             Request Consultation
