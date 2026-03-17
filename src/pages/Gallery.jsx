@@ -8,15 +8,19 @@ const videoFiles = [
   "herov1.mp4",
   "herov2.mp4",
   "herov3.mp4"
+  "herov4.mp4"
+  "herov5.mp4"
+  "herov6.mp4"
+  
 ];
 
 const imageFiles = [
-  "work1.jpg",
-  "work2.jpg",
-  "work3.jpg",
-  "work4.jpg",
-  "work5.jpg",
-  "work6.jpg"
+  "hero1.jpg",
+  "hero2.jpg",
+  "hero3.jpg",
+  "hero4.jpg",
+  "hero5.jpg",
+  "hero6.jpg"
 ];
 
 function Gallery() {
