@@ -19,13 +19,13 @@ const imageFiles = [
   "hero2.jpg",
   "hero3.jpg",
   "hero4.jpg",
-  "hero5.jpg",
-  "hero6.jpg",
-  "hero7.jpg",
-  "hero8.jpg",
-  "hero9.jpg",
-  "hero10.jpg",
-  "hero11.jpg"
+  "hero5.jpeg",
+  "hero6.jpeg",
+  "hero7.jpeg",
+  "hero8.jpeg",
+  "hero9.jpeg",
+  "hero10.jpeg",
+  "hero11.jpeg"
 ];
 
 function Gallery() {
