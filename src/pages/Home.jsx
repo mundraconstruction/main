@@ -86,7 +86,7 @@ function Home() {
         <h2 className="text-3xl md:text-4xl font-bold text-center mb-16 text-yellow-400">Our Core Services</h2>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-10 max-w-6xl mx-auto">
           {[
-            { icon: "🏗", title: "Structural Renovation", desc: "Safe removal of load-bearing walls and steel beam installation following Canadian safety standards." },
+            { icon: "🏗", title: "Structural Renovation", desc: "Safe removal of load-bearing walls and steel beam installation following UK safety standards." },
             { icon: "🧱", title: "Home Remodeling", desc: "Complete interior renovations including framing, drywall, plastering and finishing." },
             { icon: "🏢", title: "Commercial Projects", desc: "Professional commercial build-outs and structural upgrades delivered on time." }
           ].map((service, i) => (
