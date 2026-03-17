@@ -119,7 +119,7 @@ function Home() {
         <h2 className="text-3xl md:text-4xl font-bold mb-16 text-yellow-400">Why Choose Mundra Construction?</h2>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-10 max-w-6xl mx-auto">
           {[
-            { title: "Licensed & Insured", desc: "Fully compliant with Canadian building and safety regulations." },
+            { title: "Licensed & Insured", desc: "Fully compliant with UK building and safety regulations." },
             { title: "Experienced Team", desc: "Skilled professionals delivering precision construction work." },
             { title: "Quality Guarantee", desc: "Durable and long-lasting structural solutions you can trust." }
           ].map((item, i) => (
