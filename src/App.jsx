@@ -1,6 +1,7 @@
 import { Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
 import Gallery from "./pages/Gallery";
+import Form from "./pages/Form";
 import AdminPanel from "./components/AdminPanel";
 import Cursor from "./components/Cursor";
 
@@ -12,6 +13,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/gallery" element={<Gallery />} />
+        <Route path="/form" element={<Form />} />
         <Route path="/admin" element={<AdminPanel />} />
       </Routes>
     </>
