@@ -1,5 +1,4 @@
 import { useState } from "react";
-import { Link } from "react-router-dom";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 
@@ -17,18 +16,17 @@ function Form() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    console.log(formData);
-    alert("Consultation request submitted!");
+    alert("Form submitted!");
   };
 
   return (
-    <div className="bg-gray-950 text-white min-h-screen">
+    <div className="bg-gray-950 text-white min-h-screen flex flex-col">
       <Navbar />
 
-      <div className="pt-28 pb-16 px-6 flex justify-center">
+      <div className="flex-grow flex items-center justify-center px-6 py-20">
         <form
           onSubmit={handleSubmit}
-          className="bg-white/5 border border-white/10 backdrop-blur-xl p-10 rounded-3xl shadow-2xl w-full max-w-xl"
+          className="bg-gray-900 p-8 rounded-2xl shadow-xl w-full max-w-xl border border-gray-700"
         >
           <h2 className="text-3xl font-bold text-yellow-400 mb-6 text-center">
             Request Consultation
@@ -39,8 +37,7 @@ function Form() {
             name="name"
             placeholder="Your Name"
             onChange={handleChange}
-            required
-            className="w-full mb-4 p-3 rounded-lg bg-black/50 border border-gray-700"
+            className="w-full mb-4 p-3 rounded-lg bg-black border border-gray-600"
           />
 
           <input
@@ -48,8 +45,7 @@ function Form() {
             name="email"
             placeholder="Your Email"
             onChange={handleChange}
-            required
-            className="w-full mb-4 p-3 rounded-lg bg-black/50 border border-gray-700"
+            className="w-full mb-4 p-3 rounded-lg bg-black border border-gray-600"
           />
 
           <input
@@ -57,15 +53,14 @@ function Form() {
             name="phone"
             placeholder="Phone Number"
             onChange={handleChange}
-            className="w-full mb-4 p-3 rounded-lg bg-black/50 border border-gray-700"
+            className="w-full mb-4 p-3 rounded-lg bg-black border border-gray-600"
           />
 
           <textarea
             name="message"
             placeholder="Your Requirement"
             onChange={handleChange}
-            rows="4"
-            className="w-full mb-6 p-3 rounded-lg bg-black/50 border border-gray-700"
+            className="w-full mb-6 p-3 rounded-lg bg-black border border-gray-600"
           />
 
           <button
